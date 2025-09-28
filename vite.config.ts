@@ -17,11 +17,4 @@ export default defineConfig({
       "@types": path.resolve(__dirname, "./src/types"),
     },
   },
-  preview: {
-    host: "0.0.0.0", // necesario para Railway
-    port: 4173,       // opcional
-    allowedHosts: [
-      "front-end-servidor-production.up.railway.app"
-    ]
-  }
 });
