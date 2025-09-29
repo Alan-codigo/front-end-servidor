@@ -44,7 +44,7 @@ export const API_CONFIG = {
       feedback: "/evaluation/evaluate_audio",
       tips: "/evaluation/feedback",
       tips_local: "/evaluation/feedback/local",
-      classification: "classification/classify_audio",
+      classification: "/classification/classify_audio",
     },
   },
 
