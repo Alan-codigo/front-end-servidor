@@ -38,7 +38,7 @@ export const API_CONFIG = {
   },
 
   AUDIO_ANALYSIS_API: {
-    BASE_URL: "http://localhost:8000",
+    BASE_URL: "https://api-evaluation-production.up.railway.app",
     ENDPOINTS: {
       analyze: "/evaluation/analyze_audio",
       feedback: "/evaluation/evaluate_audio",
